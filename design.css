@@ -1,0 +1,178 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+/* Changes the scrollbar in the side */
+body::-webkit-scrollbar-track {
+  width: 1.25rem;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: black;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: blueviolet;
+}
+
+:root {
+  font-size: 16px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.Main {
+  margin-right: 9rem;
+  margin-left: 9rem;
+  margin-top: 0;
+  padding: 1rem;
+
+}
+
+.navbar {
+  background-color: black;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  color: white;
+  align-items: center;
+  flex-direction: row;
+  height: 5rem;
+  font-family: 'Courier New', Courier, monospace;
+  
+}
+
+.search-bar {
+  height: 45px;
+  width: 300px;
+  font-size: 13px;
+  border: none;
+  border-bottom: 2px solid grey;
+  background-color: black;
+  float: right;
+  transition: 1.3s;
+}
+
+.search-button {
+  color: black;
+}
+
+::placeholder {
+  color: grey;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: xx-large;
+}
+
+.logo {
+  height: 5rem;
+  width: 200px;
+}
+
+.active {
+  font-size: 25px;
+  padding: 30px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.HomeScreen {
+  position: relative;
+  text-align: center;
+
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 50px;
+}
+
+.Big_center {
+  font-size: 100px;
+}
+
+.Big {
+  height: auto;
+  width: auto;
+  display: block;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* .Big {
+    height: 1000px;
+    width: 1500px;
+    display: block;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  } */
+
+.description {
+  font-size: xx-large;
+
+}
+
+.firstMarquee {
+  width: 100%;
+  overflow: hidden;
+}
+
+.marquee-image {
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
+  height: 150px;
+  width: auto;
+}
+
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.game {
+  align-items: center;
+  justify-content: center;
+}
+
+#section1 {
+  height: auto;
+
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  justify-content: center;
+  align-items: center;
+
+}
+.largeimage {display: flex;
+align-items:center;
+justify-content: center;}
+.largeimage img {
+height: 500px;
+}
+
+
+#section2 {
+  height: 1000px;
+  background-color: white;
+}
