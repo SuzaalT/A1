@@ -105,7 +105,7 @@ body::-webkit-scrollbar-thumb {
 
 .Big {
   height: auto;
-  width: auto;
+  width: 100%;
   display: block;
   margin-top: 0px;
   margin-left: auto;
@@ -139,7 +139,24 @@ body::-webkit-scrollbar-thumb {
   width: auto;
 }
 
+.button {
+  background-color: rgb(26, 124, 189);
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  
+}
 
+.container{align-items: center;}
+.button:hover {opacity: 1}
 
 
 html {
@@ -151,10 +168,7 @@ html {
   justify-content: center;
 }
 
-#section1 {
-  height: auto;
 
-}
 
 .image-grid {
   display: grid;
@@ -164,15 +178,35 @@ html {
   align-items: center;
 
 }
-.largeimage {display: flex;
-align-items:center;
+.largeimage {
+  display: flex;
+align-items: center;
 justify-content: center;}
 .largeimage img {
 height: 500px;
+width: auto;
 }
 
 
-#section2 {
-  height: 1000px;
-  background-color: white;
+footer{
+color: white;
+background-color: black;
+list-style: none;
+padding: 0;
+margin: 0;
+display: flex;
+color: white;
+align-items: center;
+flex-direction: row;
+
+font-family: 'Courier New', Courier, monospace;}
+.ft{
+  display: grid;
+
+  margin: 10px;
+  
+  }
+.social{width: 50px;
+  height: 50px;
+
 }
