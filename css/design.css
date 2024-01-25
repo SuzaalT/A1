@@ -1,10 +1,11 @@
-body {
+/* body {
   margin: 0;
   padding: 0;
   background-color: white;
+  font-size: 1rem;
 }
-
-/* Changes the scrollbar in the side */
+/* 
+/* Changes the scrollbar in the side
 body::-webkit-scrollbar-track {
   width: 1.25rem;
 }
@@ -15,23 +16,21 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
   background-color: blueviolet;
-}
+} */
 
 :root {
-  font-size: 16px;
   font-family: 'Courier New', Courier, monospace;
 }
 
-.Main {
-  margin-right: 9rem;
-  margin-left: 9rem;
-  margin-top: 0;
-  padding: 1rem;
 
-}
+/*
+  margin: all;
+  margin: top-bottom left-right;
+  margin: top right bottom left;
+*/
 
 .navbar {
-  background-color: black;
+  background-color: rgb(255, 0, 0);
   list-style: none;
   padding: 0;
   margin: 0;
@@ -41,7 +40,6 @@ body::-webkit-scrollbar-thumb {
   flex-direction: row;
   height: 5rem;
   font-family: 'Courier New', Courier, monospace;
-  
 }
 
 .search-bar {
@@ -155,7 +153,7 @@ body::-webkit-scrollbar-thumb {
   
 }
 
-.container{align-items: center;}
+
 .button:hover {opacity: 1}
 
 
@@ -209,4 +207,4 @@ font-family: 'Courier New', Courier, monospace;}
 .social{width: 50px;
   height: 50px;
 
-}
+} 

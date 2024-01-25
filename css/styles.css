@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifsss;
+}
+
+
+.navbar {
+    all: unset;
+    width: 100%;
+    height: 6rem;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 0 3rem;
+    
+    background-color: black;
+}
+
+
+.navbar .logo-container {
+    /* width: 5rem; */
+}
+
+.navbar .logo-container .logo {
+  height: 6rem; 
+}
+
+
+.navbar .menu-container {
+    font-size: 2.5rem;
+    flex-grow: 1;
+    /* background-color: red; */
+}
+
+.menu-container .menus {
+    display: flex;
+    align-items: center;
+    
+    justify-content: left;
+    gap: 0 6rem;
+}
+
+.menus .menu-item {
+    list-style: none;
+    color: white;
+    
+    padding: 1rem;
+}
+
+.menu-item:hover {
+    background-color: #3c3737;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar .search-bar-container{  
+    border: none;
+
+}
+
+.search-bar-container .search-bar {
+    font-size: 2rem;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid grey;
+    background-color: black;
+    float: right;
+    color: white;
+    /* text-transform: capitalize; */
+    /* transition: 1.3s; */
+  
+}
+
+.main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.hero-container {
+    position: relative;
+    margin: 1rem 0;
+}
+
+.hero-container .hero-img{
+    width: 100%;
+}
+
+.hero-container .centered-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 50px;
+}
+
+.marquee-image{
+  height: 15rem;
+  width: min-content;
+}
+
+.footer-container{
+  background-color: black;
+  display: flex;
+  padding: 4rem 2rem 4rem 2rem;
+  justify-content: space-between;
+  color: white;
+
+}
+
+
+.footer-container .footer-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.footer-container .logo{
+  width: 15rem;
+}
+
+.footer-container .footer-social {
+    display: flex;
+    gap: 2rem;
+}
+
+.footer-container .footer-social .icon{
+  width: 4rem;
+  
+}
