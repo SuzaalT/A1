@@ -8,30 +8,58 @@
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
     />
-    <link href="design.css" rel="stylesheet" />
+    <link href="./css/styles.css" rel="stylesheet" />
     <style></style>
   </head>
 
   <body>
-    <nav class="navbar navbar-inverse">
-      
-      <div class="navbar-header">
-        <img class="logo" src="Logo.jpg" alt="logo" />
+    <nav class="navbar">
+      <div class="logo-container">
+        <a href="index.html"
+          ><img class="logo" src="./images/Logo.jpg" alt="logo"
+        /></a>
       </div>
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="index.html">Home</a></li>
-        <li class="active"><a href="#">Games</a></li>
-        <li class="active"><a href="support.html">Support</a></li>
-        <li class="active"><a href="aboutus.html">About Us</a></li>
-      </ul>
-
-      <!--Backend left For Signup and login-->
-      <ul >
-      <span class="glyphicon glyphicon-user"></span> Sign Up
-      <span class="glyphicon glyphicon-log-in"></span>Login
-      </ul>
+      <div class="menu-container">
+        <div class="menus">
+          <li class="menu-item"><a href="#">Games</a></li>
+          <li class="menu-item"><a href="./Careers.html">Careers</a></li>
+          <li class="menu-item"><a href="./support.html">Support</a></li>
+          <li class="menu-item"><a href="./aboutus.html">About Us</a></li>
+        </div>
+      </div>
+      <div class="search-bar-container">
+        <input class="search-bar" type="text" placeholder="Search" />
+      </div>
+    </nav>
+    <div class="main">
+      <div class="hero-container">
+        <img class="hero-img" src="./images/support.jpg" alt="Image" />
+      </div>
+      <div class="centered-text">
+        <h1>Suzaal_Cell</h1>
+      </div>
     </div>
-  </nav>
-   
+    <footer class="footer-container">
+      <img class="footer-left logo" src="./images/Logo.jpg" />
+      <div class="footer-right">
+        <h3>Follow us</h3>
+
+        <div class="footer-social">
+          <img class="icon" src="./images/youtube.png" />
+          <img class="icon" src="./images/facebook.png" />
+          <img class="icon" src="./images/instagram.png" />
+          <img
+            class="icon"
+            src="./images/5296514_bird_tweet_twitter_twitter logo_icon.png"
+          />
+          <img
+            class="icon"
+            src=""
+            src="./images/4202085_linkedin_logo_social_social media_icon.png"
+          />
+          <img class="icon" src="" src="./images/appstore.c44572b2.webp" />
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

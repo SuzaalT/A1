@@ -6,6 +6,9 @@
 body {
     font-size: 2em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifsss;
+    display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
 }
 
 
@@ -19,22 +22,27 @@ body {
     flex-direction: row;
     gap: 0 3rem;
     
+    position: sticky;
+    top: 0;
+    z-index: 100;
     background-color: black;
 }
 
 
 .navbar .logo-container {
     /* width: 5rem; */
+    
 }
 
 .navbar .logo-container .logo {
-  height: 6rem; 
+ height: 6rem; 
 }
 
 
 .navbar .menu-container {
     font-size: 2.5rem;
     flex-grow: 1;
+    
     /* background-color: red; */
 }
 
@@ -44,6 +52,7 @@ body {
     
     justify-content: left;
     gap: 0 6rem;
+
 }
 
 .menus .menu-item {
@@ -51,6 +60,8 @@ body {
     color: white;
     
     padding: 1rem;
+
+    
 }
 
 .menu-item:hover {
@@ -60,10 +71,12 @@ body {
 .navbar a {
   color: white;
   text-decoration: none;
+ 
 }
 
 .navbar .search-bar-container{  
     border: none;
+    
 
 }
 
@@ -83,6 +96,7 @@ body {
 .main {
     width: 90%;
     margin: 0 auto;
+    flex: 1;
 }
 
 .hero-container {
@@ -117,7 +131,9 @@ body {
 
 }
 
-
+footer{
+    margin-top: auto; 
+}
 .footer-container .footer-right {
     display: flex;
     flex-direction: column;
