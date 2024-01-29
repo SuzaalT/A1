@@ -11,19 +11,48 @@
     />
 
     <link href="./css/styles.css" rel="stylesheet" />
-    <style></style>
   </head>
 
   <body>
     <nav class="navbar">
       <div class="logo-container">
-        <a href="index.html"
+        <a href="./index.html"
           ><img class="logo" src="./images/Logo.jpg" alt="logo"
         /></a>
       </div>
       <div class="menu-container">
         <div class="menus">
-          <li class="menu-item"><a href="#">Games</a></li>
+          <div class="dropdown">
+            <button class="dropbtn">Games</button>
+            <div class="dropdown-content">
+              <a
+                href="https://play.google.com/store/search?q=clash%20of%20clans&c=apps&hl=en_US"
+                target="_blank"
+                >Clash Of Clans</a
+              >
+              <a
+                href="https://play.google.com/store/search?q=clash%20royale&c=apps&hl=en_US"
+                target="_blank"
+                >Clash Royale</a
+              >
+              <a
+                href="https://play.google.com/store/search?q=brawl%20starts&c=apps&hl=en_US"
+                target="_blank"
+                >Brawl Stars</a
+              >
+              <a
+                href="https://play.google.com/store/apps/details?id=com.supercell.boombeach&hl=en_US"
+                target="_blank"
+                >Boom Beach</a
+              >
+              <a
+                href="https://play.google.com/store/search?q=hey%20day&c=apps&hl=en_US"
+                target="_blank"
+                >Heyday</a
+              >
+            </div>
+          </div>
+
           <li class="menu-item"><a href="./Careers.html">Careers</a></li>
           <li class="menu-item"><a href="./support.html">Support</a></li>
           <li class="menu-item"><a href="./aboutus.html">About Us</a></li>
@@ -35,31 +64,35 @@
     </nav>
     <div class="main">
       <div class="hero-container">
-        <img class="hero-img" src="./images/Bigimage.jpg" alt="Image" />
+        <video width="640" height="360" controls>
+          <source src="./videos/about.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
         <div class="centered-text">
           <h1>Suzaal_Cell</h1>
         </div>
       </div>
     </div>
     <footer class="footer-container">
-      <img class="footer-left logo" src="./images/Logo.jpg" />
+      <img class="footer-left logo" src="./images/Logo.jpg" alt="image" />
       <div class="footer-right">
         <h3>Follow us</h3>
 
         <div class="footer-social">
-          <img class="icon" src="./images/youtube.png" />
-          <img class="icon" src="./images/facebook.png" />
-          <img class="icon" src="./images/instagram.png" />
-          <img
-            class="icon"
-            src="./images/5296514_bird_tweet_twitter_twitter logo_icon.png"
-          />
-          <img
-            class="icon"
-            src=""
-            src="./images/4202085_linkedin_logo_social_social media_icon.png"
-          />
-          <img class="icon" src="" src="./images/appstore.c44572b2.webp" />
+          <a href="https://www.youtube.com/@supercell"
+            ><img class="icon" src="./images/youtube.png" alt="logo"
+          /></a>
+          <a href="https://www.facebook.com/supercell"
+            ><img class="icon" src="./images/facebook.png" alt="logo"
+          /></a>
+          <a href="https://www.instagram.com/supercell"
+            ><img class="icon" src="./images/instagram.png" alt="logo"
+          /></a>
+          <a href="https://www.x.com/supercell"
+            ><img class="icon" src="./images/twiter.png" alt="logo"
+          /></a>
+          <img class="icon" src="./images/linkedin.png" alt="logo" />
+          <img class="icon" src="./images/appstore.webp" alt="logo" />
         </div>
       </div>
     </footer>
