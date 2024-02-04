@@ -9,7 +9,7 @@
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
     />
-    <link href="./css/styles.css" rel="stylesheet" />
+    <link href="./css/assign1.css" rel="stylesheet" />
   </head>
 
   <body>
@@ -51,11 +51,26 @@
               >
             </div>
           </div>
-
-          <li class="menu-item"><a href="./Careers.html">Careers</a></li>
-          <li class="menu-item"><a href="./support.html">Support</a></li>
-          <li class="menu-item"><a href="./aboutus.html">About Us</a></li>
+          <div class="menu-container">
+            <ul class="menus">
+              <li class="menu-item">
+                <a href="./Careers.html">Careers</a>
+              </li>
+              <li class="menu-item">
+                <a href="./support.html">Support</a>
+              </li>
+              <li class="menu-item">
+                <a href="./aboutus.html">About Us</a>
+              </li>
+            </ul>
+          </div>
         </div>
+      </div>
+      <div class="switch-center">
+        <label class="switch">
+          <input type="checkbox" onclick="modetoggle()" checked />
+          <span class="slider round"></span>
+        </label>
       </div>
       <div class="search-bar-container">
         <input class="search-bar" type="text" placeholder="Search" />
@@ -67,48 +82,50 @@
       </div>
       <div class="centered-text">
         <h1>How to Contact via in-game Customer Service Option</h1>
+        <ul>
+          <li>
+            Launch the game on your device. Once the in-game screen has loaded,
+            adhere to the steps below:
+          </li>
 
-        <li>
-          Launch the game on your device. Once the in-game screen has loaded,
-          adhere to the steps below:
-        </li>
+          <li>
+            Tap on the cog-wheel icon present on the bottom right corner of your
+            screen. This would take you to the in-game Settings menu.
+          </li>
+          <li>
+            Choose the Help and Support button present at the bottom of the
+            Settings menu by tapping on it. This would take you to the Clash of
+            Clans Support page.
+          </li>
 
-        <li>
-          Tap on the cog-wheel icon present on the bottom right corner of your
-          screen. This would take you to the in-game Settings menu.
-        </li>
-        <li>
-          Choose the Help and Support button present at the bottom of the
-          Settings menu by tapping on it. This would take you to the Clash of
-          Clans Support page.
-        </li>
-
-        <li>
-          You will find a three-line bar at the top right corner of the Support
-          page. Tap on that to view the categories under which one might face an
-          issue.
-        </li>
-        <li>
-          The support team has already answered many Frequently Asked Questions
-          under various categories, be it Account-related issues, Gameplay
-          issues, or purchase-related issues. To read the answers, you need to
-          tap on the relevant category your issue falls under. You will likely
-          find the solution to your exact problem here.
-        </li>
-        <li>
-          If you are not satisfied with those answers or the issue persists, you
-          need to write to the Customer Support team. To do so, scroll down to
-          the bottom of the page and tap on the
-          <a
-            href="https://support.supercell.com/brawl-stars/en/articles/contact-us.html"
-            >Contact</a
-          >
-          Us button.
-        </li>
+          <li>
+            You will find a three-line bar at the top right corner of the
+            Support page. Tap on that to view the categories under which one
+            might face an issue.
+          </li>
+          <li>
+            The support team has already answered many Frequently Asked
+            Questions under various categories, be it Account-related issues,
+            Gameplay issues, or purchase-related issues. To read the answers,
+            you need to tap on the relevant category your issue falls under. You
+            will likely find the solution to your exact problem here.
+          </li>
+          <li>
+            If you are not satisfied with those answers or the issue persists,
+            you need to write to the Customer Support team. To do so, scroll
+            down to the bottom of the page and tap on the
+            <a
+              href="https://support.supercell.com/brawl-stars/en/articles/contact-us.html"
+              >Contact</a
+            >
+            Us button.
+          </li>
+        </ul>
       </div>
     </div>
     <footer class="footer-container">
       <img class="footer-left logo" src="./images/Logo.jpg" alt="image" />
+      <p>© 2023, Sujal Thapa, Mohawk College</p>
       <div class="footer-right">
         <h3>Follow us</h3>
 
@@ -129,5 +146,6 @@
         </div>
       </div>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
